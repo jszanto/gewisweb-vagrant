@@ -8,15 +8,15 @@ This Vagrant ([What is vagrant?](https://www.vagrantup.com/about.html "vagrant")
 4. Vagrant will now do the initial setup and configuration, this will take a while.
 5. For optimal usage edit your hosts file:
 
-Windows: `C:\windows\system32\drivers\etc\hosts`
+   Windows: `C:\windows\system32\drivers\etc\hosts`
 
-Linux and OS X: `/etc/hosts`
+   Linux and OS X: `/etc/hosts`
 
-Add the following two lines:
-```
-192.168.42.42 gewisweb.dev
-192.168.42.42 pma.dev
-```
+   Add the following two lines:
+   ```
+   192.168.42.42 gewisweb.dev
+   192.168.42.42 pma.dev
+   ```
 6. You should now be able to access gewisweb at gewisweb.dev and phpmyadmin at pma.dev
 7. To stop the vm use stop.bat or stop.sh or `vagrant halt` from the command line
 
