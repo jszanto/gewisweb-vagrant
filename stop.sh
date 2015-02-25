@@ -1,2 +1,2 @@
 #!/bin/sh
-vagrant suspend
+vagrant halt
