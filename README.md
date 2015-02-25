@@ -13,8 +13,12 @@ Windows: `C:\windows\system32\drivers\etc\hosts`
 Linux and OS X: `/etc/hosts`
 
 Add the following two lines:
+```
 192.168.42.42 gewisweb.dev
 192.168.42.42 pma.dev
-
+```
 6. You should now be able to access gewisweb at gewisweb.dev and phpmyadmin at pma.dev
 7. To stop the vm use stop.bat or stop.sh or `vagrant halt` from the command line
+
+### Additional features
+You can enter the virtual machine at any time using `vagrant ssh` to make changes or to test things as needed. In many cases Vmware will offer some increased performance of virtual box. If you have Vmware installed you can edit the config.yaml file to use Vmware instead of Vagrant.
