@@ -45,7 +45,7 @@ vagrantfile-local:
                         - '-z'
                     exclude:
                         - .vagrant/
-                    auto: 'false'
+                    auto: 'true'
         usable_port_range:
             start: 10200
             stop: 10500
