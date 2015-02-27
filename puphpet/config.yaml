@@ -37,7 +37,7 @@ vagrantfile-local:
                 group: www-data
                 source: /path/to/your/gewisweb
                 target: /var/www/gewisweb
-                sync_type: default
+                sync_type: rsync
                 rsync:
                     args:
                         - '--verbose'
