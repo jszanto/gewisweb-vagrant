@@ -1,4 +1,4 @@
-class tools {
+class misc {
 
   # package install list
   $packages = [

@@ -4,8 +4,8 @@ Exec {
 }
 
 include bootstrap
-include tools
-include apache-conf
+include misc
+include apache
 include php
-include mysql-conf
+include mysql
 
