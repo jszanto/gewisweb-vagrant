@@ -6,9 +6,7 @@ sudo gem install sass
 sudo npm install -g grunt-cli
 
 # Setup gewisweb
-cd /var/www
-git clone https://github.com/GEWIS/gewisweb.git
-cd /var/www/gewisweb
+cd /vagrant
 php composer.phar install
 cp -n config/autoload/doctrine.local.php.dist config/autoload/doctrine.local.php
 sed -i 's/username/root/g' config/autoload/doctrine.local.php
